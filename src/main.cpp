@@ -36,7 +36,7 @@ unsigned int nTransactionsUpdated = 0;
 
 map<uint256, CBlockIndex*> mapBlockIndex;
 //uint256 hashGenesisBlock("0x12a765e31ffd4059bada1e25190f6e98c99d9714d334efa41a195a7e7e04bfe2");
-uint256 hashGenesisBlock("0x");
+uint256 hashGenesisBlock("0x4654ef2e7811439fcae3590b5c2025fd9a4285da8cf82369d2aef078bf7f0648");
 static CBigNum bnProofOfWorkLimit(~uint256(0) >> 20); // Lemoncoin: starting difficulty is 1 / 2^12
 CBlockIndex* pindexGenesisBlock = NULL;
 int nBestHeight = -1;
@@ -2795,7 +2795,7 @@ bool InitBlockIndex() {
         block.nVersion = 1;
         block.nTime    = 1577283284;
         block.nBits    = 0x1e0ffff0;
-        block.nNonce   = 2084524493;
+        block.nNonce   = 2086427737;
 
         if (fTestNet)
         {

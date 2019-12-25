@@ -1,0 +1,8 @@
+block.nTime = 1577283284
+block.nNonce = 2086427737
+block.GetHash = 4654ef2e7811439fcae3590b5c2025fd9a4285da8cf82369d2aef078bf7f0648
+
+
+block.nTime = 1577283216
+block.nNonce = 385962171
+block.GetHash = 7e6eaefe16a914336d55102143ff5d2a216029abae964540ffd6aadaabfeba18
