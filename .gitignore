@@ -8,7 +8,7 @@ src/test_lemoncoin
 *.rej
 *.orig
 *.o
-*.patch
+#*.patch
 .lemoncoin
 
 # Compilation and Qt preprocessor part
