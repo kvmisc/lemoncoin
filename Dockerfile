@@ -11,5 +11,5 @@ RUN apt-get install -y libboost-all-dev
 RUN apt-get install -y libminiupnpc-dev
 RUN apt-get install -y libzmq3-dev
 
-cd src
-make -f makefile.unix
+RUN cd src
+RUN make -f makefile.unix
