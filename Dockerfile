@@ -1,8 +1,5 @@
 FROM ubuntu:16.04
 
-COPY . /lemoncoin
-WORKDIR /lemoncoin/src
-
 RUN apt-get update
 
 RUN apt-get install -y build-essential libtool autotools-dev automake pkg-config libssl-dev libevent-dev bsdmainutils
@@ -20,5 +17,6 @@ RUN apt-get install -y libqt4-dev libprotobuf-dev protobuf-compiler
 RUN apt-get install -y libminiupnpc-dev
 RUN apt-get install -y libzmq3-dev
 
-#RUN cd src
+COPY . /lemoncoin
+WORKDIR /lemoncoin/src
 RUN make -f makefile.unix
