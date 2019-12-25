@@ -84,6 +84,6 @@ Lemoncoin
 -------
 MSYS shell:
 
-	cd \litecoin\src
+	cd \lemoncoin\src
 	mingw32-make -f makefile.mingw
-	strip litecoind.exe
+	strip lemoncoind.exe

@@ -3,7 +3,7 @@
 <plist version="0.9">
 <dict>
 	<key>CFBundleIconFile</key>
-	<string>litecoin.icns</string>
+	<string>lemoncoin.icns</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleGetInfoString</key>
@@ -17,17 +17,17 @@
 	<key>CFBundleExecutable</key>
 	<string>Lemoncoin-Qt</string>
 	<key>CFBundleIdentifier</key>
-	<string>org.litecoin.Lemoncoin-Qt</string>
+	<string>org.lemoncoin.Lemoncoin-Qt</string>
         <key>CFBundleURLTypes</key>
         <array>
           <dict>
             <key>CFBundleTypeRole</key>
             <string>Editor</string>
             <key>CFBundleURLName</key>
-            <string>org.litecoin.LemoncoinPayment</string>
+            <string>org.lemoncoin.LemoncoinPayment</string>
             <key>CFBundleURLSchemes</key>
             <array>
-              <string>litecoin</string>
+              <string>lemoncoin</string>
             </array>
           </dict>
         </array>
