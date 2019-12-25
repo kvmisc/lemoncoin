@@ -1,9 +1,9 @@
-Building Litecoin
+Building Lemoncoin
 
-See doc/readme-qt.rst for instructions on building Litecoin-Qt,
+See doc/readme-qt.rst for instructions on building Lemoncoin-Qt,
 the intended-for-end-users, nice-graphical-interface, reference
-implementation of Litecoin.
+implementation of Lemoncoin.
 
 See doc/build-*.txt for instructions on building litecoind,
 the intended-for-services, no-graphical-interface, reference
-implementation of Litecoin.
+implementation of Lemoncoin.
