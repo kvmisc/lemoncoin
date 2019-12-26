@@ -2787,7 +2787,7 @@ bool InitBlockIndex() {
         txNew.vout.resize(1);
         txNew.vin[0].scriptSig = CScript() << 486604799 << CBigNum(4) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
         txNew.vout[0].nValue = 50 * COIN;
-        txNew.vout[0].scriptPubKey = CScript() << ParseHex("04be3db2d193706e649a89f0e0a2c1e4b076699c236d19544959733ba9c2ab4f3f46ae30b43bced0c329a7e3219368be094ae5fe9ca4c84ec4e8998bd6eb876562") << OP_CHECKSIG;
+        txNew.vout[0].scriptPubKey = CScript() << ParseHex("04c32661017cb26e20c9f21b67c5b863efce46fc936a54dd7059ca3d5e76feeeab2d9f4b416c29f2cf1cfc3e08899f63748a800c34e4677406ec8d906744fd31a8") << OP_CHECKSIG;
         CBlock block;
         block.vtx.push_back(txNew);
         block.hashPrevBlock = 0;
