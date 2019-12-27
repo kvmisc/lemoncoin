@@ -24,3 +24,8 @@ INSTALLPREFIX=/Users/haiping/repos/deps/opt/miniupnpc make install
 brew uninstall boost
 brew install boost@1.57
 brew link boost@1.57 --force
+
+
+
+qmake "RELEASE=1"
+make
