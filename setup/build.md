@@ -3,7 +3,7 @@
 
 sudo ./install_db4.sh /usr/local/opt/
 
-BDB_PREFIX='/usr/local/opt/db4'
+BDB_PREFIX='/usr/local/opt/berkeley-db4'
 
 
 ## openssl

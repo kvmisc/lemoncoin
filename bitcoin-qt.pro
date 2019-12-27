@@ -16,8 +16,11 @@ CONFIG += thread
 # or when linking against a specific BerkelyDB version: BDB_LIB_SUFFIX=-4.8
 
 # Dependency library locations can be customized with:
-#    BOOST_INCLUDE_PATH, BOOST_LIB_PATH, BDB_INCLUDE_PATH,
-#    BDB_LIB_PATH, OPENSSL_INCLUDE_PATH and OPENSSL_LIB_PATH respectively
+#    BOOST_INCLUDE_PATH, BOOST_LIB_PATH
+#    BDB_INCLUDE_PATH, BDB_LIB_PATH
+#    OPENSSL_INCLUDE_PATH, OPENSSL_LIB_PATH
+
+#    MINIUPNPC_INCLUDE_PATH, MINIUPNPC_LIB_PATH
 
 OBJECTS_DIR = build
 MOC_DIR = build
