@@ -26,9 +26,16 @@ brew install boost@1.57
 brew link boost@1.57 --force
 
 
+## leveldb
+
+make libleveldb.a libmemenv.a
+
 
 qmake "RELEASE=1"
 make
+
+mv Lemoncoin-Qt.app Lemoncoin.app
+macdeployqt Lemoncoin.app -dmg
 
 
 ## Ubuntu
