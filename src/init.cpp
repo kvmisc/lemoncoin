@@ -1115,11 +1115,11 @@ bool AppInit2(boost::thread_group& threadGroup)
     RandAddSeedPerfmon();
 
     //// debug print
-    printf("mapBlockIndex.size() = %"PRIszu"\n",   mapBlockIndex.size());
+    printf("mapBlockIndex.size() = %" PRIszu "\n",   mapBlockIndex.size());
     printf("nBestHeight = %d\n",                   nBestHeight);
-    printf("setKeyPool.size() = %"PRIszu"\n",      pwalletMain ? pwalletMain->setKeyPool.size() : 0);
-    printf("mapWallet.size() = %"PRIszu"\n",       pwalletMain ? pwalletMain->mapWallet.size() : 0);
-    printf("mapAddressBook.size() = %"PRIszu"\n",  pwalletMain ? pwalletMain->mapAddressBook.size() : 0);
+    printf("setKeyPool.size() = %" PRIszu "\n",      pwalletMain ? pwalletMain->setKeyPool.size() : 0);
+    printf("mapWallet.size() = %" PRIszu "\n",       pwalletMain ? pwalletMain->mapWallet.size() : 0);
+    printf("mapAddressBook.size() = %" PRIszu "\n",  pwalletMain ? pwalletMain->mapAddressBook.size() : 0);
 
     StartNode(threadGroup);
 
