@@ -34,6 +34,7 @@ OPENSSL_LIB_PATH += /usr/local/opt/openssl/lib
 MINIUPNPC_INCLUDE_PATH += /usr/local/opt/miniupnpc/include
 MINIUPNPC_LIB_PATH += /usr/local/opt/miniupnpc/lib
 
+INCLUDEPATH += /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include
 
 OBJECTS_DIR = build
 MOC_DIR = build
