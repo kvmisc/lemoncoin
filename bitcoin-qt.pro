@@ -9,8 +9,6 @@ DEFINES += QT_GUI BOOST_THREAD_USE_LIB BOOST_SPIRIT_THREADSAFE
 CONFIG += no_include_pwd
 CONFIG += thread
 
-QMAKE_MAC_SDK = macosx10.14
-
 # for boost 1.37, add -mt to the boost libraries
 # use: qmake BOOST_LIB_SUFFIX=-mt
 # for boost thread win32 with _win32 sufix
@@ -24,19 +22,17 @@ QMAKE_MAC_SDK = macosx10.14
 
 #    MINIUPNPC_INCLUDE_PATH, MINIUPNPC_LIB_PATH
 
-BOOST_INCLUDE_PATH += /usr/local/opt/boost@1.57/include
-BOOST_LIB_PATH += /usr/local/opt/boost@1.57/lib
+BOOST_INCLUDE_PATH = /usr/local/opt/boost@1.57/include
+BOOST_LIB_PATH = /usr/local/opt/boost@1.57/lib
 
-BDB_INCLUDE_PATH += /usr/local/opt/berkeley-db4/include
-BDB_LIB_PATH += /usr/local/opt/berkeley-db4/lib
+BDB_INCLUDE_PATH = /usr/local/opt/berkeley-db4/include
+BDB_LIB_PATH = /usr/local/opt/berkeley-db4/lib
 
-OPENSSL_INCLUDE_PATH += /usr/local/opt/openssl/include
-OPENSSL_LIB_PATH += /usr/local/opt/openssl/lib
+OPENSSL_INCLUDE_PATH = /usr/local/opt/openssl/include
+OPENSSL_LIB_PATH = /usr/local/opt/openssl/lib
 
-MINIUPNPC_INCLUDE_PATH += /usr/local/opt/miniupnpc/include
-MINIUPNPC_LIB_PATH += /usr/local/opt/miniupnpc/lib
-
-INCLUDEPATH += /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include
+MINIUPNPC_INCLUDE_PATH = /usr/local/opt/miniupnpc/include
+MINIUPNPC_LIB_PATH = /usr/local/opt/miniupnpc/lib
 
 OBJECTS_DIR = build
 MOC_DIR = build
