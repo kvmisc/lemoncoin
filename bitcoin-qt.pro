@@ -22,8 +22,8 @@ CONFIG += thread
 
 #    MINIUPNPC_INCLUDE_PATH, MINIUPNPC_LIB_PATH
 
-BOOST_INCLUDE_PATH += /usr/local/opt/boost/include
-BOOST_LIB_PATH += /usr/local/opt/boost/lib
+BOOST_INCLUDE_PATH += /usr/local/opt/boost@1.57/include
+BOOST_LIB_PATH += /usr/local/opt/boost@1.57/lib
 
 BDB_INCLUDE_PATH += /usr/local/opt/berkeley-db4/include
 BDB_LIB_PATH += /usr/local/opt/berkeley-db4/lib
