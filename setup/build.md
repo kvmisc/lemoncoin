@@ -40,18 +40,20 @@ macdeployqt Lemoncoin.app -dmg
 
 ## Ubuntu
 
-apt-get install build-essential libtool autotools-dev automake pkg-config libssl-dev libevent-dev bsdmainutils
-apt-get install libboost-all-dev
-apt-get install libboost-system-dev libboost-filesystem-dev libboost-chrono-dev libboost-program-options-dev libboost-test-dev libboost-thread-dev
+apt-get install -y build-essential libtool autotools-dev automake pkg-config libssl-dev libevent-dev bsdmainutils
+apt-get install -y libboost-system-dev libboost-filesystem-dev libboost-chrono-dev libboost-program-options-dev libboost-test-dev libboost-thread-dev
 
-apt-get install software-properties-common
+
+apt-get install -y libboost-all-dev
+
+apt-get install -y software-properties-common
 add-apt-repository ppa:bitcoin/bitcoin
 apt-get update
-apt-get install libdb4.8-dev libdb4.8++-dev
+apt-get install -y libdb4.8-dev libdb4.8++-dev
 
-apt-get install libminiupnpc-dev
+apt-get install -y libminiupnpc-dev
 
-apt-get install libzmq3-dev
+apt-get install -y libzmq3-dev
 
 node 1: 202.182.105.216
 server=1
